@@ -1,0 +1,36 @@
+{
+  "name": "schedule-connect-unfu",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CLI utility to convert UNFU schedule HTML files to structured JSON",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "schedule-connect": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "schedule",
+    "unfu",
+    "university",
+    "parser"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true
+  }
+}
