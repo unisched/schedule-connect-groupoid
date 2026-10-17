@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Generated schedule data
+output/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Agent/tooling state
+.commandcode/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log

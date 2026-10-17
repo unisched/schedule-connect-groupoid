@@ -1,8 +1,8 @@
 {
-  "name": "schedule-connect-unfu",
+  "name": "schedule-connect-groupoid",
   "private": true,
   "version": "1.0.0",
-  "description": "CLI utility to convert UNFU schedule HTML files to structured JSON",
+  "description": "CLI utility to convert Groupoid schedule HTML files to structured JSON",
   "type": "module",
   "main": "dist/index.js",
   "bin": {

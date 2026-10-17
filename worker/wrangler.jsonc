@@ -1,12 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "schedule-connect-unfu",
+  "name": "schedule-connect-groupoid",
   "main": "src/index.ts",
-  "compatibility_date": "2026-10-10",
+  "compatibility_date": "2026-10-17",
   "r2_buckets": [
     {
       "binding": "SCHEDULES",
-      "bucket_name": "schedule-connect-unfu",
+      "bucket_name": "schedule-connect-groupoid",
       "remote": true
     }
   ]
